@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_078799b8a20615d74f5d969869867216a72e3201/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_932028d4836ae1005731dd0333de40f248bc5717/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_f727084a451c33cda9cee926682d641f7d7ecdc9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_c5b95e53d03722943d641d07bbbe90d968e14534/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_1d31416d4e3fb940262ebee131ae453d25ab672a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.0.1_6e356421e74b64989c52f5e7d5d12874da3dd3ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_492f49d4ede73c83385c9621f617416ae2408e7c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.0.1_fbc13d3abd48b9ec6a52ee0d5df75f5fa530feba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_9ff0cadf8c9833e7c04c40d041f968aa7d4cc49b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.0.1_b638a80902b22158782cd1e8447b52fdcee02a31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.0.1_aee43a0046f8336ce4e5ba82c2c33b9c9c4fe001/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_57da4175ed88ec917f0139474369dd8d8e0088fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.0.1_3be6e82815e8ea57752b68bae9b157e729e858fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_6cc97243318d47bf292464a5ccea9137d47686ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_90d122407aa26f1fa20b3fc3255c2bb7430172a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.0.1_3ea01e5b266f05e4e614edfd92aa6b39a7c69b49/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_281078e76944e391ec0449a0e908c60d9693b022/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_02b74c095e68282b684270441aa51c58bfb909c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.0.1_4c2dfaf1afe0b31b092727e404cf121844f0223b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.0.1_c4e0260b4586cc073655adcc18a423d2c656b549/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.0.1_9c0e9524d6bad126fbca13de7602b01fe8f351a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_08a36356cce3b99da9b3fea05034ac577171335f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_c390b43f2443f7eb0571983d64348e5c30417fa3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="03de00f05955ac166561daf8c15909f5ac0ab4ab">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2270925c742a042ec559dfe5bc9b193a17040252/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_d5973870fef4edecd7fde4b810e3c116d347c69c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_af582ff48cfbad125fd0d092d1ee768d70daca69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_3c1d4108a43e2d9315387d274dcb5b53eb627fc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_03d78692c7e40d37cfa72c8520dff53eaedf35c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.0.1_2b7243b926d810e1a37222d8342df13bd7a2d5d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_9f045a2b3eff02c931083159a88c534d73ca404e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_d17456bca9d2b7ef11ea22e7a3aa4057195e6d8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.0.1_26ea4842a83c9e70a409f83e4582f64776b76aca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_3132d1d1ea2219e67dd7fe71c838aff5d230cdf7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.0.1_ee009969040cf460e12fac8a70ef99b7d8f3e276/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_e7a089b8cf2cc1df50749e8e5c1e08935cacf66a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_ca9a885af1038567ab025e70d0633fe9467a234d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.0.1_de616a788251ea25304add9a5560f3f4cce9543f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.0.1_ebbfeec8c4279543a926ab3301a235a6a3a4aa31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.0.1_df3ce510d76d27266619810c825200b2e03c0015/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.0.1_702997778c22efcc86900edf3f22c06ae2534f1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.0.1_b50d69937e9425afb1cea0fe9ff56b28f768cd51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_8cb682cf7bfbe27df564832a111b9b9fbfcbb220/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.0.1_01dc88f69752ed9babf7a726d5c115a2b85670fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_04f53bad84287277b381ec5c6c546b410b5d5420/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_1b9e0c8597b189cbd8cdb92b7fe1aabf70cd956b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_703f78fdb949cd10c74cff608553bf5a60c3e58d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.0.1_7d929b5ee61b33d7eb3ffb6c2c94203fd6a1b1d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.0.1_1169c9450e8a046a30029a8e6ccfd71cc06586b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_c3d65ffc4aba8e0894726aad3599f6532a5ceb98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.0.1_209ce452ac9eaecad9e50e38e690e9717c87b107/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_0f8eda23d14bcdb1c9ce72ffad405215b5fe3db7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.0.1_e33b819ad9d9fbd59bd2a9f66825ed534ba63377/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_7c6b55e29416265d0ade1c72139960c7d92b5816/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.0.1_7f373674b62e2ec7d2c9bca15732b9d7b607526f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_4913eab625a3f97c7745c695ca6b9cc4bf8adbd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_18b536abf4e49b8f30454964cef06d8cf9e445dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_d3b6fec0934278f0c1f0a091689c1a99f096718a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_cd293ae215d49bf22e0488fed4ab30a4c07f406c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.0.1_a66004e17fc7b757ae48a78b9f368b514e6f2a7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.0.1_c339b8a711ef3cda78f2e9cb20fa65ecab7c4bab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.0.1_982f5b11171dad2811867b75870e48316335853d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="94f3726cfc9395009461221a189dd7ab20632989">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_24a2bb9e61554c78b2372c0b06c07edcbd0aa2d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_a62ae7088c08e30a650dbe454dc9149718f1cfb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.0.1_0057df79f14ae4d7c325c495227378ddddb97406/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.0.1_060a976036de6c176cfb95821e51c5c707a71744/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_098953bc0558fd1dce82c6345c6e7cbf99b48e48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_e72247a3d8618a89e8da8c14471b38880ee2ccef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/crobby/Pruebas/AMI/AMI-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_68e10628244f0cecd1f57d2c3f8dda1c90c79043/classes.dex" />
+    </item>
+
+</items>

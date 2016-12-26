@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:menu_principal="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/obtener_direcciones"
+        android:title="Obtener direcciones"/>
+    <item android:id="@+id/buscar_aula"
+        android:title="Buscar Aula" />
+</menu>
