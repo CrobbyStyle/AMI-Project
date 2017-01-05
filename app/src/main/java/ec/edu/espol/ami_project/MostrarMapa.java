@@ -69,8 +69,8 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
     }
 
     private boolean inicioApp() {
-        SharedPreferences preferences = getPreferences(MODE_PRIVATE);
-        boolean inicio = preferences.getBoolean("inicio", false);
+        preferences = getPreferences(MODE_PRIVATE);
+        inicio = preferences.getBoolean("inicio", false);
         if (!inicio) {
             SharedPreferences.Editor editor = preferences.edit();
             editor.putBoolean("inicio", true);
@@ -159,7 +159,11 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
                 .setCancelable(false)
                 .setPositiveButton("Salir", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        System.exit(0);
+                        preferences = getPreferences(MODE_PRIVATE);
+                        SharedPreferences.Editor editor = preferences.edit();
+                        editor.putBoolean("inicio", false);
+                        editor.commit();
+                        finishAffinity();
                     }
                 })
                 .setNegativeButton("Cancelar", null)
