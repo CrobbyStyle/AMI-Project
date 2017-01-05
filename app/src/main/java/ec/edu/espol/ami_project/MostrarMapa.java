@@ -1,19 +1,34 @@
 package ec.edu.espol.ami_project;
 
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationListener;
+import com.google.android.gms.location.LocationRequest;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
+import android.location.Location;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
@@ -29,7 +44,9 @@ import android.widget.Toast;
 /**
  * This shows how to create a simple activity with a map and a marker on the map.
  */
-public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback {
+public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks,
+        GoogleApiClient.OnConnectionFailedListener,
+        LocationListener {
     private ListView mDrawerList;
     private DrawerLayout mDrawerLayout;
     private ArrayAdapter<String> mAdapter;
@@ -38,6 +55,11 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
     private boolean inicio;
     private SharedPreferences preferences;
     private Toolbar toolbar;
+    private GoogleMap mGoogleMap;
+    private GoogleApiClient mGoogleApiClient;
+    private Location mLastLocation;
+    private Marker mCurrLocationMarker;
+    private LocationRequest mLocationRequest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,13 +69,14 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment =
                 (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-        mDrawerList = (ListView)findViewById(R.id.navList);mDrawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
+        mDrawerList = (ListView) findViewById(R.id.navList);
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mActivityTitle = getTitle().toString();
         addDrawerItems();
         setupDrawer();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-        if(inicioApp()) {
+        if (inicioApp()) {
             AlertDialog.Builder myAlert = new AlertDialog.Builder(this);
             myAlert.setMessage("Esta aplicación permite ubicar Bloques y Aulas dentro de ESPOL mediante información gráfica y textual. ¡No más clases atrasadas por no encontrar el aula!")
                     .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
@@ -65,6 +88,15 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
                     .setTitle("Bienvenido")
                     .create();
             myAlert.show();
+        }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+
+        if (mGoogleApiClient != null) {
+            LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
         }
     }
 
@@ -80,15 +112,15 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
     }
 
     private void addDrawerItems() {
-        String[] osArray = { "Obtener direcciones", "Buscar bloque/aula" };
+        String[] osArray = {"Obtener direcciones", "Buscar bloque/aula"};
         mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, osArray);
         mDrawerList.setAdapter(mAdapter);
 
         mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if(position == 0){
-                    Intent intent= new Intent(MostrarMapa.this,MostrarMapa.class);
+                if (position == 0) {
+                    Intent intent = new Intent(MostrarMapa.this, MostrarMapa.class);
                     startActivity(intent);
                 } else {
                     Toast.makeText(MostrarMapa.this, "Work in progress...", Toast.LENGTH_SHORT).show();
@@ -119,6 +151,7 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
         mDrawerToggle.setDrawerIndicatorEnabled(true);
         mDrawerLayout.setDrawerListener(mDrawerToggle);
     }
+
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
@@ -148,10 +181,121 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
 
     @Override
     public void onMapReady(GoogleMap map) {
-        map.addMarker(new MarkerOptions().position(new LatLng(-2.1481458,-79.9644885)).title("ESPOL"));
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-2.1481458,-79.9644885) , 18.0f));
+        mGoogleMap = map;
+        mGoogleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+                buildGoogleApiClient();
+                mGoogleMap.setMyLocationEnabled(true);
+            } else {
+                checkLocationPermission();
+            }
+        }
+        else {
+            buildGoogleApiClient();
+            mGoogleMap.setMyLocationEnabled(true);
+        }
     }
 
+    @Override
+    public void onConnected(Bundle bundle) {
+        mLocationRequest = new LocationRequest();
+        mLocationRequest.setInterval(1000);
+        mLocationRequest.setFastestInterval(1000);
+        mLocationRequest.setPriority(LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY);
+        if (ContextCompat.checkSelfPermission(this,
+                android.Manifest.permission.ACCESS_FINE_LOCATION)
+                == PackageManager.PERMISSION_GRANTED) {
+            LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
+        }
+    }
+
+    @Override
+    public void onConnectionSuspended(int i) {
+
+    }
+
+    protected synchronized void buildGoogleApiClient() {
+        mGoogleApiClient = new GoogleApiClient.Builder(this)
+                .addConnectionCallbacks(this)
+                .addOnConnectionFailedListener(this)
+                .addApi(LocationServices.API)
+                .build();
+        mGoogleApiClient.connect();
+    }
+
+    @Override
+    public void onLocationChanged(Location location)
+    {
+        mLastLocation = location;
+        if (mCurrLocationMarker != null) {
+            mCurrLocationMarker.remove();
+        }
+        LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
+        MarkerOptions markerOptions = new MarkerOptions();
+        markerOptions.position(latLng);
+        markerOptions.title("Aquí estoy");
+        markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA));
+        mCurrLocationMarker = mGoogleMap.addMarker(markerOptions);
+        CameraUpdate yourLocation = CameraUpdateFactory.newLatLngZoom(latLng, 18);
+        mGoogleMap.animateCamera(yourLocation);
+        if (mGoogleApiClient != null) {
+            LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
+        }
+    }
+
+    public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
+    private void checkLocationPermission() {
+        if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+            if (ActivityCompat.shouldShowRequestPermissionRationale(this,
+                    android.Manifest.permission.ACCESS_FINE_LOCATION)) {
+                new AlertDialog.Builder(this)
+                        .setTitle("Location Permission Needed")
+                        .setMessage("This app needs the Location permission, please accept to use location functionality")
+                        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                ActivityCompat.requestPermissions(MostrarMapa.this,
+                                        new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION},
+                                        MY_PERMISSIONS_REQUEST_LOCATION );
+                            }
+                        })
+                        .create()
+                        .show();
+            } else {
+                // No explanation needed, we can request the permission.
+                ActivityCompat.requestPermissions(this,
+                        new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION},
+                        MY_PERMISSIONS_REQUEST_LOCATION );
+            }
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case MY_PERMISSIONS_REQUEST_LOCATION: {
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    if (ContextCompat.checkSelfPermission(this,
+                            android.Manifest.permission.ACCESS_FINE_LOCATION)
+                            == PackageManager.PERMISSION_GRANTED) {
+
+                        if (mGoogleApiClient == null) {
+                            buildGoogleApiClient();
+                        }
+                        mGoogleMap.setMyLocationEnabled(true);
+                    }
+
+                } else {
+                    Toast.makeText(this, "No se han otorgado permisos.", Toast.LENGTH_LONG).show();
+                }
+                return;
+            }
+        }
+    }
     @Override
     public void onBackPressed() {
         new AlertDialog.Builder(this)
@@ -168,5 +312,10 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
                 })
                 .setNegativeButton("Cancelar", null)
                 .show();
+    }
+
+    @Override
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
     }
 }
