@@ -2,11 +2,12 @@
   <library name="support-media-compat-25.0.1">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/d59bc226c29dd81aa80c857ff67806fea7ef874d/output/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar!/" />
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar!/" />
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/d59bc226c29dd81aa80c857ff67806fea7ef874d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/d59bc226c29dd81aa80c857ff67806fea7ef874d/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/d59bc226c29dd81aa80c857ff67806fea7ef874d/output/jars/libs/internal_impl-25.0.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
