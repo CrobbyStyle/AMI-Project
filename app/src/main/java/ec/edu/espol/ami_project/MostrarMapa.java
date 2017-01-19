@@ -27,6 +27,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -60,6 +61,7 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
     private Location mLastLocation;
     private Marker mCurrLocationMarker;
     private LocationRequest mLocationRequest;
+    private FloatingActionButton btnDirecciones;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +73,9 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
         mapFragment.getMapAsync(this);
         mDrawerList = (ListView) findViewById(R.id.navList);
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        btnDirecciones = (FloatingActionButton) findViewById(R.id.btnDirecciones);
+        btnDirecciones.setSize(FloatingActionButton.SIZE_MINI);
+        btnDirecciones.setMaxHeight(16);
         mActivityTitle = getTitle().toString();
         addDrawerItems();
         setupDrawer();
