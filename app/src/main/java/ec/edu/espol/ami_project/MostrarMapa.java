@@ -17,11 +17,13 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
+import android.hardware.Camera;
 import android.location.Location;
 import android.os.Build;
 import android.os.Bundle;
@@ -39,8 +41,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Toast;
+import android.util.Log;
 
 /**
  * This shows how to create a simple activity with a map and a marker on the map.
@@ -62,6 +67,9 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
     private Marker mCurrLocationMarker;
     private LocationRequest mLocationRequest;
     private FloatingActionButton btnDirecciones;
+    private Camera mCamera = null;
+    private CameraView mCameraView = null;
+    private Context mContext = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +84,31 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
         btnDirecciones = (FloatingActionButton) findViewById(R.id.btnDirecciones);
         btnDirecciones.setSize(FloatingActionButton.SIZE_MINI);
         btnDirecciones.setMaxHeight(16);
+        mContext = this;
+        btnDirecciones.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                try{
+                    mCamera = Camera.open();
+                } catch (Exception e){
+                    Log.d("ERROR", "No se puede abrir la camara: " + e.getMessage());
+                }
+
+                if(mCamera != null) {
+                    mCameraView = new CameraView(mContext, mCamera);//se crea el streaming de la camara
+                    FrameLayout camera_view = (FrameLayout)findViewById(R.id.camera_view);
+                    camera_view.addView(mCameraView);
+                }
+
+                //btn to close the application
+                /*ImageButton imgClose = (ImageButton)findViewById(R.id.imgClose);
+                imgClose.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        System.exit(0);
+                    }
+                });*/
+            }
+        });
         mActivityTitle = getTitle().toString();
         addDrawerItems();
         setupDrawer();
