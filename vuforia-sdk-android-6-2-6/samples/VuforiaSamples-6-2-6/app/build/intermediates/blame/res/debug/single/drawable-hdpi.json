@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Kevin\\Desktop\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo.png",
+        "source": "C:\\Users\\Kevin\\Desktop\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Kevin\\Desktop\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "C:\\Users\\Kevin\\Desktop\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    }
+]
