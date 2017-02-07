@@ -1,193 +1,569 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:2:1-189:12
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:2:1-196:12
 	package
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:3:5-49
-		INJECTED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml
+		INJECTED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml
+		INJECTED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:4:5-30
-		INJECTED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml
+		INJECTED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:14:5-74
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:14:5-74
+MERGED from [com.google.android.gms:play-services:10.0.1] /home/crobby/.android/build-cache/0c14c69cabe8a4017ec829ad0ddb5a1ac33bc900/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:10.0.1] /home/crobby/.android/build-cache/ca7c5c176cc723278364d22092a8d7ae3694ac04/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /home/crobby/.android/build-cache/eadec927e3f07533ddcd11e39d0c7047b0f712b8/output/AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] /home/crobby/.android/build-cache/a87e4d79f3e4e9ffc40ffd1d79aa166f4a6f2274/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] /home/crobby/.android/build-cache/3dc10dddde86512605cb7a8f5ea37b84adad52de/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] /home/crobby/.android/build-cache/6c2f66323d7d68a8f78b218331e8a318d17d7af1/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:10.0.1] /home/crobby/.android/build-cache/26fc516428dcb535f3b1f08ccfa32ca8f406bca7/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] /home/crobby/.android/build-cache/82005d0d6e658223c98a96bf67ba433c3e71270b/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] /home/crobby/.android/build-cache/f4f5af49c0ac8d1374e08f281217c9d13a429f16/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /home/crobby/.android/build-cache/ecfcaa9d8db844e708bb1d5af70f4f190473fae8/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] /home/crobby/.android/build-cache/e79821b392db6cccf284d347e9296b742203d4cb/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] /home/crobby/.android/build-cache/eda18d906700ed1ee45c8d1fb63d0aecd9363ee7/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-config:10.0.1] /home/crobby/.android/build-cache/c67d769cba77f7dae7d83373c9df5d42a05ddb43/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-awareness:10.0.1] /home/crobby/.android/build-cache/8ba788ff538c162353ee445d3f58ebc9a777b542/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-crash:10.0.1] /home/crobby/.android/build-cache/302a7b8503d78d6454d59a0c2f1a1e8871b9a191/output/AndroidManifest.xml:20:5-42
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /home/crobby/.android/build-cache/ceb027f82307b5acc39e087cae937467185e2863/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-database:10.0.1] /home/crobby/.android/build-cache/745cd5e11c8a14c9f0b312350f9f58edf133fe73/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:10.0.1] /home/crobby/.android/build-cache/ea2801e95c3e884953b182bb029ea61b42a0b94b/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] /home/crobby/.android/build-cache/7e3a029aae3b8f36449c641161b240d5f4bef7b2/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-storage:10.0.1] /home/crobby/.android/build-cache/6d1dde6c244415caf3274eaf64732918d8cda3cf/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:10.0.1] /home/crobby/.android/build-cache/891a8278d77e473ef1d57be1f7e140f7a0b02973/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-fitness:10.0.1] /home/crobby/.android/build-cache/51c5d7c454abe8273a28423c90c9a2ad16d3cbe1/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-games:10.0.1] /home/crobby/.android/build-cache/ccc27fc7f3628aa52e80d1f6ac62dc074376c145/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-drive:10.0.1] /home/crobby/.android/build-cache/f55ac54877895570220c5c49d93c2e7a782a843d/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] /home/crobby/.android/build-cache/630e80e1cee79f2755f128103f9b8c96ef06d9b0/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /home/crobby/.android/build-cache/b852edaf2a24ca30daec2dbb3b65e04fef861da9/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] /home/crobby/.android/build-cache/8503d99e004659dedf75b6fda3deff80366c853f/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /home/crobby/.android/build-cache/0a075ed8dca5b765f8f99c4b347be08e8122ed7a/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-instantapps:10.0.1] /home/crobby/.android/build-cache/f28895ec5855706248588a67084efab2ad4af019/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-location:10.0.1] /home/crobby/.android/build-cache/af45fe73403482a10c25ff4193d16094115e0708/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] /home/crobby/.android/build-cache/5212ed1caf4ec5c96e8a9d55facee17914040567/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-panorama:10.0.1] /home/crobby/.android/build-cache/1f4229ba73d65ed8d2bd1bcdcf7b25268bc44494/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-places:10.0.1] /home/crobby/.android/build-cache/4fc5b4e428eefdb1588ab2fd86bd66d3a23b5a4e/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-plus:10.0.1] /home/crobby/.android/build-cache/da1ae3539a5d47a0fb6deb2c2add38b6ed893e54/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] /home/crobby/.android/build-cache/3bbe0ef1e2d0b24f48e135c4651c1d0669577334/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:10.0.1] /home/crobby/.android/build-cache/c4cf1e008931714ecc3f92cbe0ff7e08b70c2603/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/crobby/.android/build-cache/5d71d0db0a746063e01cca00acf942e136baba55/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/crobby/.android/build-cache/deb0484394c241340571812f6cd9199bd9acad93/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] /home/crobby/.android/build-cache/7c3a43b483e54483f69763f4c87419fb1768f026/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /home/crobby/.android/build-cache/9b59a85675c45ccce2a461d2f96f967659348a86/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-vision:10.0.1] /home/crobby/.android/build-cache/8ecef388c3de01f4d960ee2e752458c9a08169e3/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-wallet:10.0.1] /home/crobby/.android/build-cache/e9b0f22bef56364992b0fe9d4b9e35aaa06c32d5/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:10.0.1] /home/crobby/.android/build-cache/d27d9a7905e2cf3d50b79292c16eb3b598ac8074/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/crobby/.android/build-cache/30b15d415f5490bc6f969291a1c4008dafcdad7f/output/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] /home/crobby/.android/build-cache/44f3de9c5a48729843690cb6b340b48e613538fe/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/crobby/.android/build-cache/effc4470881752934711e822cbc44a05c9498499/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/crobby/.android/build-cache/4b15ed8162f2945aec73c43c01d7f9e894e9fd54/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/crobby/.android/build-cache/61ec9919b8e74f79a15be80109aec23960584af3/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:design:25.0.1] /home/crobby/.android/build-cache/2acb3bfbabf31027f7ec3a171b3d26fb721ed9ba/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.0.1] /home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /home/crobby/.android/build-cache/2610fe130d8256ff77bb231ea893c27792b4243b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /home/crobby/.android/build-cache/96bf704ff0abe7e2fc50293a46c2521d15a5ccef/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.0.1] /home/crobby/.android/build-cache/d42e9bb28fc4d8206a629f5ab43f82bf9f236003/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.0.1] /home/crobby/.android/build-cache/6e2ec9a30d5403bf432c12f6b992bdea6c4977cb/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.0.1] /home/crobby/.android/build-cache/7f0c8780a686433f3eceaaf1b713f4b68dcaf513/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] /home/crobby/.android/build-cache/e515aeb55d404610c0d73fe4989f34019e82fbbd/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] /home/crobby/.android/build-cache/3cf941fcde33a59208ff663f6fb501e47f760145/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.1] /home/crobby/.android/build-cache/1819692786eac4c9257abd3873354199ba9efc3a/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /home/crobby/.android/build-cache/678d14137ba6758977e3ee4a5dee44e7ca8a4945/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /home/crobby/.android/build-cache/873279dabdccc18666e4ac4f1d3e10cce7375589/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.1] /home/crobby/.android/build-cache/2acb3bfbabf31027f7ec3a171b3d26fb721ed9ba/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:14:42-71
-		INJECTED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:14:42-71
+		INJECTED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml
+		INJECTED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:14:15-41
-		INJECTED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:14:15-41
+		INJECTED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml
+		INJECTED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml
 uses-feature#0x00020000
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:16:5-54
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:16:5-54
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/crobby/.android/build-cache/30b15d415f5490bc6f969291a1c4008dafcdad7f/output/AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:16:19-51
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:16:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] /home/crobby/.android/build-cache/30b15d415f5490bc6f969291a1c4008dafcdad7f/output/AndroidManifest.xml:21:52-75
 uses-feature#android.hardware.camera
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:32:5-60
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:32:5-60
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:32:19-57
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:32:19-57
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:37:5-81
+	android:name
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:37:22-78
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:37:5-65
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:38:5-65
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:37:22-62
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:38:22-62
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:42:5-66
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:43:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /home/crobby/.android/build-cache/eadec927e3f07533ddcd11e39d0c7047b0f712b8/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] /home/crobby/.android/build-cache/a87e4d79f3e4e9ffc40ffd1d79aa166f4a6f2274/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] /home/crobby/.android/build-cache/3dc10dddde86512605cb7a8f5ea37b84adad52de/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.0.1] /home/crobby/.android/build-cache/302a7b8503d78d6454d59a0c2f1a1e8871b9a191/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /home/crobby/.android/build-cache/b852edaf2a24ca30daec2dbb3b65e04fef861da9/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /home/crobby/.android/build-cache/0a075ed8dca5b765f8f99c4b347be08e8122ed7a/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/crobby/.android/build-cache/5d71d0db0a746063e01cca00acf942e136baba55/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /home/crobby/.android/build-cache/9b59a85675c45ccce2a461d2f96f967659348a86/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/crobby/.android/build-cache/30b15d415f5490bc6f969291a1c4008dafcdad7f/output/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:42:22-64
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:43:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:48:5-79
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:49:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /home/crobby/.android/build-cache/eadec927e3f07533ddcd11e39d0c7047b0f712b8/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] /home/crobby/.android/build-cache/a87e4d79f3e4e9ffc40ffd1d79aa166f4a6f2274/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] /home/crobby/.android/build-cache/5212ed1caf4ec5c96e8a9d55facee17914040567/output/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/crobby/.android/build-cache/5d71d0db0a746063e01cca00acf942e136baba55/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /home/crobby/.android/build-cache/9b59a85675c45ccce2a461d2f96f967659348a86/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/crobby/.android/build-cache/30b15d415f5490bc6f969291a1c4008dafcdad7f/output/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:48:22-76
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:49:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:50:5-79
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:51:5-79
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:50:22-77
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:51:22-77
 application
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:62:5-187:19
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:63:5-194:19
+MERGED from [com.google.android.gms:play-services:10.0.1] /home/crobby/.android/build-cache/0c14c69cabe8a4017ec829ad0ddb5a1ac33bc900/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /home/crobby/.android/build-cache/eadec927e3f07533ddcd11e39d0c7047b0f712b8/output/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] /home/crobby/.android/build-cache/a87e4d79f3e4e9ffc40ffd1d79aa166f4a6f2274/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] /home/crobby/.android/build-cache/3dc10dddde86512605cb7a8f5ea37b84adad52de/output/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] /home/crobby/.android/build-cache/6c2f66323d7d68a8f78b218331e8a318d17d7af1/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] /home/crobby/.android/build-cache/82005d0d6e658223c98a96bf67ba433c3e71270b/output/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] /home/crobby/.android/build-cache/f4f5af49c0ac8d1374e08f281217c9d13a429f16/output/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /home/crobby/.android/build-cache/ecfcaa9d8db844e708bb1d5af70f4f190473fae8/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] /home/crobby/.android/build-cache/e79821b392db6cccf284d347e9296b742203d4cb/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] /home/crobby/.android/build-cache/eda18d906700ed1ee45c8d1fb63d0aecd9363ee7/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.0.1] /home/crobby/.android/build-cache/c67d769cba77f7dae7d83373c9df5d42a05ddb43/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.0.1] /home/crobby/.android/build-cache/8ba788ff538c162353ee445d3f58ebc9a777b542/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.0.1] /home/crobby/.android/build-cache/302a7b8503d78d6454d59a0c2f1a1e8871b9a191/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /home/crobby/.android/build-cache/ceb027f82307b5acc39e087cae937467185e2863/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] /home/crobby/.android/build-cache/7e3a029aae3b8f36449c641161b240d5f4bef7b2/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.0.1] /home/crobby/.android/build-cache/51c5d7c454abe8273a28423c90c9a2ad16d3cbe1/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.0.1] /home/crobby/.android/build-cache/ccc27fc7f3628aa52e80d1f6ac62dc074376c145/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.0.1] /home/crobby/.android/build-cache/f55ac54877895570220c5c49d93c2e7a782a843d/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] /home/crobby/.android/build-cache/630e80e1cee79f2755f128103f9b8c96ef06d9b0/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /home/crobby/.android/build-cache/b852edaf2a24ca30daec2dbb3b65e04fef861da9/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] /home/crobby/.android/build-cache/8503d99e004659dedf75b6fda3deff80366c853f/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /home/crobby/.android/build-cache/0a075ed8dca5b765f8f99c4b347be08e8122ed7a/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.0.1] /home/crobby/.android/build-cache/af45fe73403482a10c25ff4193d16094115e0708/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] /home/crobby/.android/build-cache/5212ed1caf4ec5c96e8a9d55facee17914040567/output/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.0.1] /home/crobby/.android/build-cache/1f4229ba73d65ed8d2bd1bcdcf7b25268bc44494/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.0.1] /home/crobby/.android/build-cache/4fc5b4e428eefdb1588ab2fd86bd66d3a23b5a4e/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.0.1] /home/crobby/.android/build-cache/da1ae3539a5d47a0fb6deb2c2add38b6ed893e54/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] /home/crobby/.android/build-cache/3bbe0ef1e2d0b24f48e135c4651c1d0669577334/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/crobby/.android/build-cache/5d71d0db0a746063e01cca00acf942e136baba55/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/crobby/.android/build-cache/deb0484394c241340571812f6cd9199bd9acad93/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] /home/crobby/.android/build-cache/7c3a43b483e54483f69763f4c87419fb1768f026/output/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /home/crobby/.android/build-cache/9b59a85675c45ccce2a461d2f96f967659348a86/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.0.1] /home/crobby/.android/build-cache/8ecef388c3de01f4d960ee2e752458c9a08169e3/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.0.1] /home/crobby/.android/build-cache/d27d9a7905e2cf3d50b79292c16eb3b598ac8074/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/crobby/.android/build-cache/30b15d415f5490bc6f969291a1c4008dafcdad7f/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] /home/crobby/.android/build-cache/44f3de9c5a48729843690cb6b340b48e613538fe/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/crobby/.android/build-cache/effc4470881752934711e822cbc44a05c9498499/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/crobby/.android/build-cache/4b15ed8162f2945aec73c43c01d7f9e894e9fd54/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/crobby/.android/build-cache/61ec9919b8e74f79a15be80109aec23960584af3/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:design:25.0.1] /home/crobby/.android/build-cache/2acb3bfbabf31027f7ec3a171b3d26fb721ed9ba/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.1] /home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /home/crobby/.android/build-cache/2610fe130d8256ff77bb231ea893c27792b4243b/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /home/crobby/.android/build-cache/96bf704ff0abe7e2fc50293a46c2521d15a5ccef/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.0.1] /home/crobby/.android/build-cache/6e2ec9a30d5403bf432c12f6b992bdea6c4977cb/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.0.1] /home/crobby/.android/build-cache/7f0c8780a686433f3eceaaf1b713f4b68dcaf513/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] /home/crobby/.android/build-cache/e515aeb55d404610c0d73fe4989f34019e82fbbd/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] /home/crobby/.android/build-cache/3cf941fcde33a59208ff663f6fb501e47f760145/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] /home/crobby/.android/build-cache/1819692786eac4c9257abd3873354199ba9efc3a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /home/crobby/.android/build-cache/678d14137ba6758977e3ee4a5dee44e7ca8a4945/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /home/crobby/.android/build-cache/873279dabdccc18666e4ac4f1d3e10cce7375589/output/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:64:9-41
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:65:9-41
+	android:supportsRtl
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:69:9-35
 	android:launchMode
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:66:9-40
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:67:9-40
 	android:allowBackup
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:67:9-35
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:68:9-35
 	android:icon
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:63:9-38
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:64:9-38
 	android:description
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:65:9-54
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:66:9-54
 	android:theme
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:68:9-47
-activity#com.vuforia.samples.VuforiaSamples.ui.ActivityList.ActivitySplashScreen
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:87:10-98:21
-	android:screenOrientation
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:90:13-49
-	android:noHistory
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:91:13-37
-	android:configChanges
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:89:13-93
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:70:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:73:9-75:55
+	android:value
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:75:13-52
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:88:13-65
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:74:13-58
+activity#com.vuforia.samples.VuforiaSamples.ui.ActivityList.MostrarMapa
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:95:10-104:21
+	android:label
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:97:14-65
+	android:name
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:96:14-57
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:93:13-97:29
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:99:13-103:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:94:17-69
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:100:17-69
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:94:25-66
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:100:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:96:17-77
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:102:17-77
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:96:27-74
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:102:27-74
 activity#com.vuforia.samples.VuforiaSamples.ui.ActivityList.ActivityLauncher
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:100:9-105:20
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:107:9-112:20
 	android:screenOrientation
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:103:13-49
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:110:13-49
 	android:configChanges
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:102:13-93
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:109:13-93
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:101:13-61
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:108:13-61
 activity#com.vuforia.samples.VuforiaSamples.ui.ActivityList.AboutScreen
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:107:10-113:20
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:114:10-120:20
 	android:screenOrientation
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:110:13-49
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:117:13-49
 	android:noHistory
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:111:13-37
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:118:13-37
 	android:configChanges
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:109:13-93
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:116:13-93
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:108:13-56
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:115:13-56
 activity#com.vuforia.samples.VuforiaSamples.app.ImageTargets.ImageTargets
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:115:9-121:20
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:122:9-128:20
 	android:launchMode
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:119:13-44
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:126:13-44
 	android:configChanges
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:117:13-93
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:124:13-93
 	android:theme
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:118:13-51
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:125:13-51
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:116:13-58
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:123:13-58
 activity#com.vuforia.samples.VuforiaSamples.app.VuMark.VuMark
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:123:9-129:20
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:130:9-136:20
 	android:launchMode
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:127:13-44
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:134:13-44
 	android:configChanges
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:125:13-93
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:132:13-93
 	android:theme
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:126:13-51
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:133:13-51
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:124:13-46
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:131:13-46
 activity#com.vuforia.samples.VuforiaSamples.app.TextRecognition.TextReco
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:131:9-137:20
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:138:9-144:20
 	android:launchMode
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:135:13-44
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:142:13-44
 	android:configChanges
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:133:13-93
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:140:13-93
 	android:theme
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:134:13-51
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:141:13-51
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:132:13-57
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:139:13-57
 activity#com.vuforia.samples.VuforiaSamples.app.CylinderTargets.CylinderTargets
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:139:9-145:20
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:146:9-152:20
 	android:launchMode
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:143:13-44
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:150:13-44
 	android:configChanges
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:141:13-93
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:148:13-93
 	android:theme
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:142:13-51
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:149:13-51
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:140:13-64
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:147:13-64
 activity#com.vuforia.samples.VuforiaSamples.app.VirtualButtons.VirtualButtons
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:147:9-153:20
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:154:9-160:20
 	android:launchMode
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:151:13-44
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:158:13-44
 	android:configChanges
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:149:13-93
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:156:13-93
 	android:theme
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:150:13-51
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:157:13-51
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:148:13-62
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:155:13-62
 activity#com.vuforia.samples.VuforiaSamples.app.UserDefinedTargets.UserDefinedTargets
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:155:9-161:20
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:162:9-168:20
 	android:launchMode
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:159:13-44
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:166:13-44
 	android:configChanges
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:157:13-93
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:164:13-93
 	android:theme
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:158:13-51
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:165:13-51
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:156:13-70
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:163:13-70
 activity#com.vuforia.samples.VuforiaSamples.app.MultiTargets.MultiTargets
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:163:9-169:20
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:170:9-176:20
 	android:launchMode
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:167:13-44
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:174:13-44
 	android:configChanges
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:165:13-93
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:172:13-93
 	android:theme
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:166:13-51
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:173:13-51
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:164:13-58
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:171:13-58
 activity#com.vuforia.samples.VuforiaSamples.app.CloudRecognition.CloudReco
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:171:9-177:20
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:178:9-184:20
 	android:launchMode
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:175:13-44
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:182:13-44
 	android:configChanges
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:173:13-93
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:180:13-93
 	android:theme
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:174:13-51
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:181:13-51
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:172:13-59
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:179:13-59
 activity#com.vuforia.samples.VuforiaSamples.app.ObjectRecognition.ObjectTargets
-ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:179:9-185:20
+ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:186:9-192:20
 	android:launchMode
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:183:13-44
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:190:13-44
 	android:configChanges
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:181:13-93
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:188:13-93
 	android:theme
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:182:13-51
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:189:13-51
 	android:name
-		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:180:13-64
+		ADDED from /home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/AndroidManifest.xml:187:13-64
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /home/crobby/.android/build-cache/eadec927e3f07533ddcd11e39d0c7047b0f712b8/output/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /home/crobby/.android/build-cache/eadec927e3f07533ddcd11e39d0c7047b0f712b8/output/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /home/crobby/.android/build-cache/eadec927e3f07533ddcd11e39d0c7047b0f712b8/output/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /home/crobby/.android/build-cache/eadec927e3f07533ddcd11e39d0c7047b0f712b8/output/AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /home/crobby/.android/build-cache/eadec927e3f07533ddcd11e39d0c7047b0f712b8/output/AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /home/crobby/.android/build-cache/eadec927e3f07533ddcd11e39d0c7047b0f712b8/output/AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /home/crobby/.android/build-cache/eadec927e3f07533ddcd11e39d0c7047b0f712b8/output/AndroidManifest.xml:26:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.0.1] /home/crobby/.android/build-cache/a87e4d79f3e4e9ffc40ffd1d79aa166f4a6f2274/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/crobby/.android/build-cache/5d71d0db0a746063e01cca00acf942e136baba55/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /home/crobby/.android/build-cache/9b59a85675c45ccce2a461d2f96f967659348a86/output/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.0.1] /home/crobby/.android/build-cache/a87e4d79f3e4e9ffc40ffd1d79aa166f4a6f2274/output/AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /home/crobby/.android/build-cache/3dc10dddde86512605cb7a8f5ea37b84adad52de/output/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /home/crobby/.android/build-cache/3dc10dddde86512605cb7a8f5ea37b84adad52de/output/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /home/crobby/.android/build-cache/3dc10dddde86512605cb7a8f5ea37b84adad52de/output/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /home/crobby/.android/build-cache/3dc10dddde86512605cb7a8f5ea37b84adad52de/output/AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /home/crobby/.android/build-cache/3dc10dddde86512605cb7a8f5ea37b84adad52de/output/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /home/crobby/.android/build-cache/3dc10dddde86512605cb7a8f5ea37b84adad52de/output/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /home/crobby/.android/build-cache/3dc10dddde86512605cb7a8f5ea37b84adad52de/output/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /home/crobby/.android/build-cache/3dc10dddde86512605cb7a8f5ea37b84adad52de/output/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /home/crobby/.android/build-cache/3dc10dddde86512605cb7a8f5ea37b84adad52de/output/AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/crobby/.android/build-cache/6c2f66323d7d68a8f78b218331e8a318d17d7af1/output/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/crobby/.android/build-cache/6c2f66323d7d68a8f78b218331e8a318d17d7af1/output/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/crobby/.android/build-cache/6c2f66323d7d68a8f78b218331e8a318d17d7af1/output/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/crobby/.android/build-cache/6c2f66323d7d68a8f78b218331e8a318d17d7af1/output/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/crobby/.android/build-cache/6c2f66323d7d68a8f78b218331e8a318d17d7af1/output/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/crobby/.android/build-cache/6c2f66323d7d68a8f78b218331e8a318d17d7af1/output/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/crobby/.android/build-cache/6c2f66323d7d68a8f78b218331e8a318d17d7af1/output/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/crobby/.android/build-cache/6c2f66323d7d68a8f78b218331e8a318d17d7af1/output/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/crobby/.android/build-cache/6c2f66323d7d68a8f78b218331e8a318d17d7af1/output/AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /home/crobby/.android/build-cache/82005d0d6e658223c98a96bf67ba433c3e71270b/output/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /home/crobby/.android/build-cache/82005d0d6e658223c98a96bf67ba433c3e71270b/output/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /home/crobby/.android/build-cache/82005d0d6e658223c98a96bf67ba433c3e71270b/output/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /home/crobby/.android/build-cache/82005d0d6e658223c98a96bf67ba433c3e71270b/output/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /home/crobby/.android/build-cache/82005d0d6e658223c98a96bf67ba433c3e71270b/output/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /home/crobby/.android/build-cache/82005d0d6e658223c98a96bf67ba433c3e71270b/output/AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/crobby/.android/build-cache/7e3a029aae3b8f36449c641161b240d5f4bef7b2/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/crobby/.android/build-cache/7e3a029aae3b8f36449c641161b240d5f4bef7b2/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/crobby/.android/build-cache/7e3a029aae3b8f36449c641161b240d5f4bef7b2/output/AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/crobby/.android/build-cache/7e3a029aae3b8f36449c641161b240d5f4bef7b2/output/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/crobby/.android/build-cache/7e3a029aae3b8f36449c641161b240d5f4bef7b2/output/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/crobby/.android/build-cache/7e3a029aae3b8f36449c641161b240d5f4bef7b2/output/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/crobby/.android/build-cache/7e3a029aae3b8f36449c641161b240d5f4bef7b2/output/AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.0.1] /home/crobby/.android/build-cache/b852edaf2a24ca30daec2dbb3b65e04fef861da9/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /home/crobby/.android/build-cache/0a075ed8dca5b765f8f99c4b347be08e8122ed7a/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.0.1] /home/crobby/.android/build-cache/b852edaf2a24ca30daec2dbb3b65e04fef861da9/output/AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /home/crobby/.android/build-cache/17854e56862f8acd774b2f9c3587c12ff3c67a2e/output/AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/crobby/.android/build-cache/5d71d0db0a746063e01cca00acf942e136baba55/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/crobby/.android/build-cache/5d71d0db0a746063e01cca00acf942e136baba55/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/crobby/.android/build-cache/a9a261f04fe33d444d8b8ba6a2b6cb24a6f408c8/output/AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/crobby/.android/build-cache/06b1d80d0697358fbce9b0164a301acd030db90a/output/AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] /home/crobby/.android/build-cache/deb0484394c241340571812f6cd9199bd9acad93/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/crobby/.android/build-cache/deb0484394c241340571812f6cd9199bd9acad93/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/crobby/.android/build-cache/deb0484394c241340571812f6cd9199bd9acad93/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/crobby/.android/build-cache/deb0484394c241340571812f6cd9199bd9acad93/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/crobby/.android/build-cache/deb0484394c241340571812f6cd9199bd9acad93/output/AndroidManifest.xml:6:79-143
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/crobby/.android/build-cache/effc4470881752934711e822cbc44a05c9498499/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/crobby/.android/build-cache/effc4470881752934711e822cbc44a05c9498499/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/crobby/.android/build-cache/effc4470881752934711e822cbc44a05c9498499/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/crobby/.android/build-cache/effc4470881752934711e822cbc44a05c9498499/output/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/crobby/.android/build-cache/61ec9919b8e74f79a15be80109aec23960584af3/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/crobby/.android/build-cache/61ec9919b8e74f79a15be80109aec23960584af3/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/crobby/.android/build-cache/61ec9919b8e74f79a15be80109aec23960584af3/output/AndroidManifest.xml:20:20-65

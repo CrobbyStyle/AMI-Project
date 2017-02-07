@@ -5,7 +5,7 @@ def NATIVE_LIB_DIR = 'build/lib'
 def JAR_DIR = 'build/java/vuforia'
 
 android {
-    compileSdkVersion 22
+    compileSdkVersion 25
     buildToolsVersion '25.0.0'
 
     sourceSets.main {
@@ -19,6 +19,7 @@ android {
         targetSdkVersion 22
         versionCode 600
         versionName "6.0"
+        multiDexEnabled true
     }
 
     archivesBaseName = rootProject.projectDir.getName()
@@ -42,4 +43,14 @@ android {
 
 dependencies {
     compile files("$VUFORIA_SDK_DIR/$JAR_DIR/Vuforia.jar")
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.google.android.gms:play-services:10.0.1'
+    compile "com.android.support:support-core-utils:25.1.0"
+    compile 'com.android.support:design:25.0.1'
+//    compile "com.android.support:support-core-utils:25.1.0"
+    testCompile 'junit:junit:4.12'
 }

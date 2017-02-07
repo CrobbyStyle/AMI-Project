@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/interpolator/mr_linear_out_slow_in.xml",
+        "source": "/home/crobby/.android/build-cache/ecfcaa9d8db844e708bb1d5af70f4f190473fae8/output/res/interpolator/mr_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/interpolator/mr_fast_out_slow_in.xml",
+        "source": "/home/crobby/.android/build-cache/ecfcaa9d8db844e708bb1d5af70f4f190473fae8/output/res/interpolator/mr_fast_out_slow_in.xml"
+    }
+]

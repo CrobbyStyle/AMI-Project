@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/home/crobby/.android/build-cache/4fc5b4e428eefdb1588ab2fd86bd66d3a23b5a4e/output/res/layout-v21/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

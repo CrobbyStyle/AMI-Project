@@ -1,18 +1,98 @@
 [
     {
-        "merged": "C:\\Users\\Kevin\\Desktop\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_up.xml",
-        "source": "C:\\Users\\Kevin\\Desktop\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\src\\main\\res\\anim\\bottom_up.xml"
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/bottom_down.xml",
+        "source": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/res/anim/bottom_down.xml"
     },
     {
-        "merged": "C:\\Users\\Kevin\\Desktop\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_down.xml",
-        "source": "C:\\Users\\Kevin\\Desktop\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\src\\main\\res\\anim\\bottom_down.xml"
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/home/crobby/.android/build-cache/2acb3bfbabf31027f7ec3a171b3d26fb721ed9ba/output/res/anim/design_fab_out.xml"
     },
     {
-        "merged": "C:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_up.xml",
-        "source": "C:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\src\\main\\res\\anim\\bottom_up.xml"
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/home/crobby/.android/build-cache/2acb3bfbabf31027f7ec3a171b3d26fb721ed9ba/output/res/anim/design_snackbar_out.xml"
     },
     {
-        "merged": "C:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_down.xml",
-        "source": "C:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\src\\main\\res\\anim\\bottom_down.xml"
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/home/crobby/.android/build-cache/2acb3bfbabf31027f7ec3a171b3d26fb721ed9ba/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/github/AMI-Project/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/C:\\Users\\Kevin\\Desktop\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_down.xml",
+        "source": "/home/crobby/Pruebas/AMI/github/AMI-Project/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/C:\\Users\\Kevin\\Desktop\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\src\\main\\res\\anim\\bottom_down.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/home/crobby/.android/build-cache/2acb3bfbabf31027f7ec3a171b3d26fb721ed9ba/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/github/AMI-Project/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/C:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_down.xml",
+        "source": "/home/crobby/Pruebas/AMI/github/AMI-Project/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/C:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\src\\main\\res\\anim\\bottom_down.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/github/AMI-Project/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/C:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_up.xml",
+        "source": "/home/crobby/Pruebas/AMI/github/AMI-Project/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/C:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\src\\main\\res\\anim\\bottom_up.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/home/crobby/.android/build-cache/2acb3bfbabf31027f7ec3a171b3d26fb721ed9ba/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/github/AMI-Project/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/bottom_up.xml",
+        "source": "/home/crobby/Pruebas/AMI/github/AMI-Project/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/res/anim/bottom_up.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/github/AMI-Project/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/C:\\Users\\Kevin\\Desktop\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_up.xml",
+        "source": "/home/crobby/Pruebas/AMI/github/AMI-Project/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/C:\\Users\\Kevin\\Desktop\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\src\\main\\res\\anim\\bottom_up.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/github/AMI-Project/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/bottom_down.xml",
+        "source": "/home/crobby/Pruebas/AMI/github/AMI-Project/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/res/anim/bottom_down.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/bottom_up.xml",
+        "source": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/res/anim/bottom_up.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/home/crobby/.android/build-cache/2acb3bfbabf31027f7ec3a171b3d26fb721ed9ba/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     }
 ]

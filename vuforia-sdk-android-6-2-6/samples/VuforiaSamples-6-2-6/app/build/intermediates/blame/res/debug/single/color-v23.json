@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/crobby/.android/build-cache/2acb3bfbabf31027f7ec3a171b3d26fb721ed9ba/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/color-v23/abc_tint_seek_thumb.xml"
+    }
+]

@@ -34,6 +34,7 @@
     <!--
         Add this permission to get access to the camera.
     -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
 
     <!--
@@ -65,10 +66,13 @@
         android:description="@string/app_description"
         android:launchMode="singleTask"
         android:allowBackup="true"
-        android:theme="@style/SampleAppsTheme"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
         >
-        
 
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
          <!--
           NOTE: The values in 'android:configChanges' ensure that Android will 
           not destroy and re-create the activity when the user flips the 
@@ -84,11 +88,13 @@
           Activity.setRequestedOrientation().
         -->
         <!-- Splash Screen Activity -->
-         <activity
-            android:name=".ui.ActivityList.ActivitySplashScreen"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+        <!--android:name=".ui.ActivityList.ActivitySplashScreen"
+        android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:screenOrientation="portrait"
-            android:noHistory="true"
+            android:noHistory="true"-->
+         <activity
+             android:name=".ui.ActivityList.MostrarMapa"
+             android:label="@string/title_activity_mostrar_mapa">
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -96,6 +102,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
          </activity>
+
         
         <activity
             android:name=".ui.ActivityList.ActivityLauncher"
@@ -183,7 +190,7 @@
             android:launchMode="singleTask"
             >
         </activity>
-         
+
     </application>
 
 </manifest>
