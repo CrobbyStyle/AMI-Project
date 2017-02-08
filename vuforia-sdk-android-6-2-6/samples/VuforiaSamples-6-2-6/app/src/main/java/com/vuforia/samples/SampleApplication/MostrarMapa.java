@@ -128,6 +128,7 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
                     .create();
             myAlert.show();
         }
+
     }
 
     @Override
@@ -226,6 +227,12 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
             if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
                 buildGoogleApiClient();
                 mGoogleMap.setMyLocationEnabled(true);
+                LatLng CIB_ESPOL = new LatLng(-2.1474203, -79.9660954);
+                MarkerOptions markerCIB = new MarkerOptions();
+                markerCIB.position(CIB_ESPOL);
+                markerCIB.title("CIB ESPOL");
+                markerCIB.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+                mGoogleMap.addMarker(markerCIB);
             } else {
                 checkLocationPermission();
             }
@@ -278,6 +285,7 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
         mCurrLocationMarker = mGoogleMap.addMarker(markerOptions);
         CameraUpdate yourLocation = CameraUpdateFactory.newLatLngZoom(latLng, 18);
         mGoogleMap.animateCamera(yourLocation);
+
         if (mGoogleApiClient != null) {
             LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
         }

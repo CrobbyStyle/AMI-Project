@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
+        "outputFile": "C:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,31 @@
                     "endOffset": 154
                 },
                 "from": {
-                    "file": "/home/crobby/.android/build-cache/e9b0f22bef56364992b0fe9d4b9e35aaa06c32d5/output/res/values-en-rSG/values.xml",
+                    "file": "C:\\Users\\Kevin\\.android\\build-cache\\f8052d4666dcb53237cb1134145de1758552d576\\output\\res\\values-en-rSG\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 244,
+                        "endColumn": 99,
+                        "endOffset": 343
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\home\\crobby\\Pruebas\\AMI\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "C:\\home\\crobby\\.android\\build-cache\\e9b0f22bef56364992b0fe9d4b9e35aaa06c32d5\\output\\res\\values-en-rSG\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,

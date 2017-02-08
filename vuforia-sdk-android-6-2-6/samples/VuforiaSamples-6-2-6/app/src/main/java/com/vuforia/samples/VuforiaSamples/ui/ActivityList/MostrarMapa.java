@@ -236,6 +236,16 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
             if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
                 buildGoogleApiClient();
                 mGoogleMap.setMyLocationEnabled(true);
+                LatLng CIB_ESPOL = new LatLng(-2.1474203,-79.9660954);
+                LatLng CEPROEM = new LatLng(-2.1474632,-79.9662982);
+                LatLng monumento = new LatLng(-2.1479993,-79.9656239);
+                LatLng ICQ = new LatLng(-2.1474737,-79.9676967);
+                LatLng FIECnueva = new LatLng(-2.1450894,-79.9680116);
+                mGoogleMap.addMarker(new MarkerOptions().position(CIB_ESPOL).title("CIB").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                mGoogleMap.addMarker(new MarkerOptions().position(CEPROEM).title("CEPROEM").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                mGoogleMap.addMarker(new MarkerOptions().position(monumento).title("Monumento").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                mGoogleMap.addMarker(new MarkerOptions().position(ICQ).title("ICQ").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                mGoogleMap.addMarker(new MarkerOptions().position(FIECnueva).title("Bloque 15A").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
             } else {
                 checkLocationPermission();
             }

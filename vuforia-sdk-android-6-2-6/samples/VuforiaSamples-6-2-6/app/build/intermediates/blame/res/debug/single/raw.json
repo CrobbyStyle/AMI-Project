@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
-        "source": "/home/crobby/.android/build-cache/7c3a43b483e54483f69763f4c87419fb1768f026/output/res/raw/gtm_analytics"
+        "merged": "C:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\Kevin\\.android\\build-cache\\129570c8c8f0b88c2ad814d34cbad30da05507c7\\output\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "C:\\home\\crobby\\Pruebas\\AMI\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\home\\crobby\\.android\\build-cache\\7c3a43b483e54483f69763f4c87419fb1768f026\\output\\res\\raw\\gtm_analytics"
     }
 ]

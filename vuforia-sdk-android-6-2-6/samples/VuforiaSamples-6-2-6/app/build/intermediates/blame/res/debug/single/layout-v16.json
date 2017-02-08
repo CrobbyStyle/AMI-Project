@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
-        "source": "/home/crobby/.android/build-cache/a4025875210a902cbce5ab257aa4dfa6470d7ef6/output/res/layout-v16/notification_template_custom_big.xml"
+        "merged": "C:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Kevin\\.android\\build-cache\\1cf08056286d0b9f95bb74b87895ecd1e4b26be1\\output\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\home\\crobby\\Pruebas\\AMI\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\home\\crobby\\.android\\build-cache\\a4025875210a902cbce5ab257aa4dfa6470d7ef6\\output\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/crobby/Pruebas/AMI/vuforia-sdk-android-6-2-6/samples/VuforiaSamples-6-2-6/app/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\debug\shaders"/></dataSet></merger>
