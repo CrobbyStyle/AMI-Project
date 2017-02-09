@@ -5,6 +5,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="328ace27-59ee-454c-9550-56eca800cbd9" name="Default" comment="" />
     <ignored path="VuforiaSamples-6-2-6.iws" />
@@ -37,16 +40,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MostrarMapa.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/SampleApplication/MostrarMapa.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,8 +53,21 @@
       <file leaf-file-name="MostrarMapa.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/MostrarMapa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="240" column="70" selection-start-line="240" selection-start-column="70" selection-end-line="240" selection-end-column="70" />
+            <state relative-caret-position="846">
+              <caret line="271" column="16" selection-start-line="271" selection-start-column="16" selection-end-line="271" selection-end-column="16" />
+              <folding>
+                <element signature="e#11463#16011#0" expanded="true" />
+                <element signature="e#16010#16011#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivitySplashScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivitySplashScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -72,7 +78,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-              <folding />
+              <folding>
+                <element signature="e#0#1503#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +123,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#26103#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4772#4773#0" expanded="false" />
+                <element signature="e#4807#4808#0" expanded="false" />
+                <element signature="e#15202#15203#0" expanded="false" />
+                <element signature="e#15274#15275#0" expanded="false" />
+                <element signature="e#18259#18260#0" expanded="false" />
+                <element signature="e#18299#18300#0" expanded="false" />
+                <element signature="e#26030#26031#0" expanded="false" />
+                <element signature="e#26099#26100#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +144,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#0#11540#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#6292#6293#0" expanded="false" />
+                <element signature="e#6360#6361#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -3280,14 +3304,14 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2712766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26996806" sideWeight="0.4936508" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32747602" sideWeight="0.5031746" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26517573" sideWeight="0.5031746" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26517573" sideWeight="0.4968254" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.4968254" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.4936508" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.4968254" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3349,7 +3373,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#11463#16011#0" expanded="true" />
+            <element signature="e#16010#16011#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3357,7 +3384,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding />
+          <folding>
+            <element signature="e#0#1503#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3389,7 +3418,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26103#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4772#4773#0" expanded="false" />
+            <element signature="e#4807#4808#0" expanded="false" />
+            <element signature="e#15202#15203#0" expanded="false" />
+            <element signature="e#15274#15275#0" expanded="false" />
+            <element signature="e#18259#18260#0" expanded="false" />
+            <element signature="e#18299#18300#0" expanded="false" />
+            <element signature="e#26030#26031#0" expanded="false" />
+            <element signature="e#26099#26100#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3397,7 +3437,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#0#11540#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6292#6293#0" expanded="false" />
+            <element signature="e#6360#6361#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3459,7 +3504,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#0#26103#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4772#4773#0" expanded="false" />
+            <element signature="e#4807#4808#0" expanded="false" />
+            <element signature="e#15202#15203#0" expanded="false" />
+            <element signature="e#15274#15275#0" expanded="false" />
+            <element signature="e#18259#18260#0" expanded="false" />
+            <element signature="e#18299#18300#0" expanded="false" />
+            <element signature="e#26030#26031#0" expanded="false" />
+            <element signature="e#26099#26100#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3467,7 +3523,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#0#11540#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6292#6293#0" expanded="false" />
+            <element signature="e#6360#6361#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3521,13 +3582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6000">
           <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivitySplashScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -3611,7 +3665,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26103#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4772#4773#0" expanded="false" />
+            <element signature="e#4807#4808#0" expanded="false" />
+            <element signature="e#15202#15203#0" expanded="false" />
+            <element signature="e#15274#15275#0" expanded="false" />
+            <element signature="e#18259#18260#0" expanded="false" />
+            <element signature="e#18299#18300#0" expanded="false" />
+            <element signature="e#26030#26031#0" expanded="false" />
+            <element signature="e#26099#26100#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3619,7 +3684,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#0#11540#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6292#6293#0" expanded="false" />
+            <element signature="e#6360#6361#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3627,7 +3697,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding />
+          <folding>
+            <element signature="e#0#1503#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3650,11 +3722,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivitySplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/MostrarMapa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="240" column="70" selection-start-line="240" selection-start-column="70" selection-end-line="240" selection-end-column="70" />
-          <folding />
+        <state relative-caret-position="846">
+          <caret line="271" column="16" selection-start-line="271" selection-start-column="16" selection-end-line="271" selection-end-column="16" />
+          <folding>
+            <element signature="e#11463#16011#0" expanded="true" />
+            <element signature="e#16010#16011#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

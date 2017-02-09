@@ -236,16 +236,111 @@ public class MostrarMapa extends AppCompatActivity implements OnMapReadyCallback
             if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
                 buildGoogleApiClient();
                 mGoogleMap.setMyLocationEnabled(true);
+
                 LatLng CIB_ESPOL = new LatLng(-2.1474203,-79.9660954);
                 LatLng CEPROEM = new LatLng(-2.1474632,-79.9662982);
                 LatLng monumento = new LatLng(-2.1479993,-79.9656239);
                 LatLng ICQ = new LatLng(-2.1474737,-79.9676967);
                 LatLng FIECnueva = new LatLng(-2.1450894,-79.9680116);
-                mGoogleMap.addMarker(new MarkerOptions().position(CIB_ESPOL).title("CIB").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
-                mGoogleMap.addMarker(new MarkerOptions().position(CEPROEM).title("CEPROEM").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
-                mGoogleMap.addMarker(new MarkerOptions().position(monumento).title("Monumento").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
-                mGoogleMap.addMarker(new MarkerOptions().position(ICQ).title("ICQ").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
-                mGoogleMap.addMarker(new MarkerOptions().position(FIECnueva).title("Bloque 15A").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+
+                MarkerOptions cibMarker = new MarkerOptions()
+                        .position(CIB_ESPOL)
+                        .title("CIB")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+                MarkerOptions ceproemMarker = new MarkerOptions()
+                        .position(CEPROEM)
+                        .title("CEPROEM")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+                MarkerOptions monumentoMarker = new MarkerOptions()
+                        .position(monumento)
+                        .title("Monumento ESPOL")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+                MarkerOptions icqMarker = new MarkerOptions()
+                        .position(ICQ)
+                        .title("ICQ")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+                MarkerOptions fiecMarker = new MarkerOptions()
+                        .position(FIECnueva)
+                        .title("Bloque 15A")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+
+                mGoogleMap.addMarker(cibMarker);
+                mGoogleMap.addMarker(ceproemMarker);
+                mGoogleMap.addMarker(monumentoMarker);
+                mGoogleMap.addMarker(icqMarker);
+                mGoogleMap.addMarker(fiecMarker);
+                
+                mGoogleMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+                    @Override
+                    public boolean onMarkerClick(Marker marker) {
+                        if (marker.getTitle().equals("CIB")) {
+                            AlertDialog.Builder myAlert = new AlertDialog.Builder(mContext);
+                            myAlert.setMessage("Biblioteca central de la ESPOL.")
+                                    .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialogInterface, int i) {
+                                            dialogInterface.dismiss();
+                                        }
+                                    })
+                                    .setTitle("Centro de Información Bibliotecario")
+                                    .create();
+                            myAlert.show();
+                        }
+                        if (marker.getTitle().equals("CEPROEM")) {
+                            AlertDialog.Builder myAlert = new AlertDialog.Builder(mContext);
+                            myAlert.setMessage("Centro de Promoción y Empleo")
+                                    .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialogInterface, int i) {
+                                            dialogInterface.dismiss();
+                                        }
+                                    })
+                                    .setTitle("Centro de Promoción y Empleo")
+                                    .create();
+                            myAlert.show();
+                        }
+                        if (marker.getTitle().equals("Monumento ESPOL")) {
+                            AlertDialog.Builder myAlert = new AlertDialog.Builder(mContext);
+                            myAlert.setMessage("Plazoleta y monumento de la ESPOL, frente al rectorado de la ESPOL.")
+                                    .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialogInterface, int i) {
+                                            dialogInterface.dismiss();
+                                        }
+                                    })
+                                    .setTitle("Monumento ESPOL")
+                                    .create();
+                            myAlert.show();
+                        }
+                        if (marker.getTitle().equals("ICQ")) {
+                            AlertDialog.Builder myAlert = new AlertDialog.Builder(mContext);
+                            myAlert.setMessage("Laboratorios y aulas del Instituto de Ciencias Químicas de la ESPOL. Aulas: ICQ-101, ICQ-102, etc.")
+                                    .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialogInterface, int i) {
+                                            dialogInterface.dismiss();
+                                        }
+                                    })
+                                    .setTitle("Instituto de Ciencias Químicas")
+                                    .create();
+                            myAlert.show();
+                        }
+                        if (marker.getTitle().equals("Bloque 15A")) {
+                            AlertDialog.Builder myAlert = new AlertDialog.Builder(mContext);
+                            myAlert.setMessage("Aulas: 15A-01, 15A-02, etc. Laboratorios: Software, Multimedia, etc.")
+                                    .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialogInterface, int i) {
+                                            dialogInterface.dismiss();
+                                        }
+                                    })
+                                    .setTitle("FIEC - Bloque 15A")
+                                    .create();
+                            myAlert.show();
+                        }
+                        return false;
+                    }
+                });
             } else {
                 checkLocationPermission();
             }

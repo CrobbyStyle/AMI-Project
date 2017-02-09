@@ -17,7 +17,6 @@ ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\sample
 		ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from C:\Users\Kevin\workspace\AMI-Project\vuforia-sdk-android-6-2-6\samples\VuforiaSamples-6-2-6\app\src\main\AndroidManifest.xml:14:5-74
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\Kevin\.android\build-cache\8c38f361a395a8f8c556e70c9fcc00c9d8d65e80\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services:10.0.1] C:\Users\Kevin\.android\build-cache\bbe037f07e558260f1b5054bf47182548be876ff\output\AndroidManifest.xml:4:5-42
 MERGED from [com.google.android.gms:play-services-ads:10.0.1] C:\Users\Kevin\.android\build-cache\7c3687b249f90789c0ed6b1fa70763d5df88c59f\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Kevin\.android\build-cache\927435ddcaec9dffe7f775c84cbea987e8d38a7c\output\AndroidManifest.xml:22:5-42

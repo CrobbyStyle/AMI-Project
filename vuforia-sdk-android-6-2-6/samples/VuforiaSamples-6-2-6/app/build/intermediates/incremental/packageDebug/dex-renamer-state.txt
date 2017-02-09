@@ -1,4 +1,4 @@
-#Tue Feb 07 13:23:54 COT 2017
+#Wed Feb 08 19:22:26 COT 2017
 file.68=C\:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_994796553622091490aa1c3c9a1f6f6894440090\\classes.dex
 file.67=C\:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_85f32ef0d4cfcbbaa0e2add0a0f0b398144b79fb\\classes.dex
 file.66=C\:\\Users\\Kevin\\workspace\\AMI-Project\\vuforia-sdk-android-6-2-6\\samples\\VuforiaSamples-6-2-6\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\Vuforia_1c9a0d21c68d2d6452663c2986971e4a69c228b8\\classes.dex
